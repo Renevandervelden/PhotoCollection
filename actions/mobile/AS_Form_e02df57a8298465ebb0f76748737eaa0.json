@@ -1,0 +1,24 @@
+{
+    "AS_Form_e02df57a8298465ebb0f76748737eaa0": {
+        "id": "AS_Form_e02df57a8298465ebb0f76748737eaa0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a3f86c1942fe47dfbe6831595e7a9ef0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHome.FlexGroupPerson1.height = kony.os.deviceInfo().screenWidth * 0.4;\nfrmHome.FlexGroupPerson2.height = kony.os.deviceInfo().screenWidth * 0.4;\nfrmHome.FlexGroupPerson3.height = kony.os.deviceInfo().screenWidth * 0.4;\nfrmHome.FlexGroupPerson4.height = kony.os.deviceInfo().screenWidth * 0.4;\n\nvar flexGroupPerson1Size = 0;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

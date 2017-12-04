@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_a1f81faf6e8a474a85e9c28f76660a58": {
+        "id": "AS_FlexContainer_a1f81faf6e8a474a85e9c28f76660a58",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h52008e5afa24eb1bc1ab9eea03d7284",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.accelerometer.retrieveCurrentAcceleration(accelerometer, accelerometerFail);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

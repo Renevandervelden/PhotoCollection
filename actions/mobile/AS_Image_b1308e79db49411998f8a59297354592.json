@@ -1,0 +1,30 @@
+{
+    "AS_Image_b1308e79db49411998f8a59297354592": {
+        "id": "AS_Image_b1308e79db49411998f8a59297354592",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bb4d8c46694044beb9f4e32166c59c04",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//kony.timer.schedule(\"tryOutTimer\", timerFunction, 1, true);\nif (flexGroupPerson1Size = 0) {\n  enlargePF(frmHome.flexGroupPerson1);\n}\nelse { \n\tenlargePF(frmHome.flexGroupPerson1);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_cc409a91ddff42e696ad9bda16e94cb4": {
+        "id": "AS_Button_cc409a91ddff42e696ad9bda16e94cb4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ba086b04216d44c080e96988a8dc5e78",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "count++;\n\nHome.LabelCounter[\"text\"] = count;\n\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
